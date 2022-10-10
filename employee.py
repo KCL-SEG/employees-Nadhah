@@ -15,6 +15,7 @@ class Employee:
         self.commission = commission
         self.contractsNum = contractsNum
         
+        
 
     def get_pay(self):
         totalPay = 0
