@@ -1,11 +1,11 @@
 """Employee pay calculator."""
 """ENTER YOUR SOLUTION HERE!"""
 
-from unicodedata import *
+from unicodedata import name
 
 
 class Employee:
-    def _init_(self, name, contract, salaryCal , hours, isCommission , commissionType , commission , contractsNum ):
+    def __init__(self, name, contract, salaryCal , hours, isCommission , commissionType , commission , contractsNum):
         self.name = name
         self.contract = contract
         self.salaryCal = salaryCal
