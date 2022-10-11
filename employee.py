@@ -1,7 +1,7 @@
 """Employee pay calculator."""
 """ENTER YOUR SOLUTION HERE!"""
 
-from unicodedata import name
+from unicodedata import *
 
 
 class Employee:
