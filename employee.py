@@ -47,7 +47,7 @@ class Employee:
 
 
 
-    def _str_(self):
+    def __str__(self):
         empString = ""
         
         if self.contract == "monthly":
